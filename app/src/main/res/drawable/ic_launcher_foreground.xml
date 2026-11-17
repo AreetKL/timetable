@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  图标前景：左侧一条时间轴，右侧三条参差的课程。
+
+  · 竖轴（低饱和灰绿）贯穿全程，是整张图的骨架——没有它，几条横条会飘。
+  · 三条课程左端贴轴对齐、右端长短不一（40 / 30 / 36 的节奏），比等长更耐看。
+  · 首条最粗且用暖黄，是视觉起点（当前这一节），米白两条退到次要位置。
+
+  尺寸（108dp 画布，可视区 72dp，圆形遮罩半径 36dp，安全半径 33dp）：
+  内容 41.3 × 46.4dp，半对角 31.1dp < 33dp，缩小后四周留白更足，
+  圆角方 / 圆形 / 超椭圆任何遮罩下都不切角。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 时间轴 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#93A896"
+        android:strokeWidth="2.94"
+        android:strokeLineCap="round"
+        android:pathData="M34.83,32.25 L34.83,75.75" />
+
+    <!-- 第一条：当前这一节，暖黄、略粗 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E7B05C"
+        android:strokeWidth="10.32"
+        android:strokeLineCap="round"
+        android:pathData="M45.4,36.8 L69.48,36.8" />
+
+    <!-- 第二条：米白 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F4F0E4"
+        android:strokeWidth="10.32"
+        android:strokeLineCap="round"
+        android:pathData="M45.4,54 L60.88,54" />
+
+    <!-- 第三条：米白 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F4F0E4"
+        android:strokeWidth="10.32"
+        android:strokeLineCap="round"
+        android:pathData="M45.4,71.2 L66.04,71.2" />
+</vector>

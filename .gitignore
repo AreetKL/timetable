@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本机配置：SDK 路径，提交了别人也编译不了
+local.properties
+
+# 签名密钥：永远不进版本库
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# 编译产物
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# 日志与临时文件
+*.log
+*.hprof
